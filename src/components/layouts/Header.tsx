@@ -2,22 +2,24 @@ import { FC } from "react"
 
 const Header:FC=props=>{
     return (
-        <div className="flex" >
-            <div className="flex-none" >
+        <div className="flex w-full items-center" >
+            <div className="flex-none  " >
                 <h1 className="text-3xl text-white " >LOGO</h1>
             </div>
             <div className="grow " >
-                <div className="flex justify-center w-100" >
-                    <div className="text-white" >Home</div>
-                    <div className="text-white" >About</div>
-                    <div className="text-white" >Featured NFT's</div>
-                    <div className="text-white" >Competition</div>
-                    <div className="text-white" >Testimonials</div>
+                <div className="flex w-full items-center" >
+                    <div className="grow" ></div>
+                    <div className="text-white mx-4" >Home</div>
+                    <div className="text-white mx-4" >About</div>
+                    <div className="text-white mx-4" >Featured NFT's</div>
+                    <div className="text-white mx-4" >Competition</div>
+                    <div className="text-white mx-4" >Testimonials</div>
+                    <div className="grow" ></div>
                 </div>
             </div>
             <div className="flex-none" >
-                <div className="bg-gradient-to-r from-#E73583 via-#7C65FF to-#50B4FF w-[100px] h-[100px]" >
-
+                <div className="bg-gradient-to-r from-[#E73583] text-center via-[#7C65FF] to-[#50B4FF] w-[100px] h-[100px] rounded-full w-[180] h-[30px]" >
+                    <div className="text-white" >Login</div>
                 </div>
             </div>
         </div>
