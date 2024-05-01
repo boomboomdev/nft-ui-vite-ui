@@ -1,6 +1,6 @@
 import { FC } from "react"
 
-const Header:FC=props=>{
+const Header:FC=()=>{
     return (
         <div className="flex w-full items-center" >
             <div className="flex-none  " >

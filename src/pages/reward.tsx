@@ -1,10 +1,9 @@
-import { FC } from "react"
-import Sidebar from "../components/layouts/sidebar"
-import SHeader from "../components/layouts/SHeader"
-import Footer from "../components/layouts/footer"
-import Distribution from "../components/reward/Distribution"
-import Pool from "../components/reward/Pool"
-import Transaction from "../components/reward/Transaction"
+import { FC } from "react";
+import Sidebar from "../components/layouts/sidebar";
+import SHeader from "../components/layouts/SHeader";
+import Distribution from "../components/reward/Distribution";
+import Pool from "../components/reward/Pool";
+import Transaction from "../components/reward/Transaction";
 interface Props{
 
 }

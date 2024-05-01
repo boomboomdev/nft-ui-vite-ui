@@ -2,7 +2,7 @@ import { FC } from "react"
 // components
 interface Props {
 }
-const Card:FC<Props>=(props)=>{
+const Card:FC<Props>=()=>{
     return (
         <>
           <div className="rounded-xl bg-color-[#0A0933] p-8 border-[#464646] border-2 relative">
