@@ -32,7 +32,7 @@ const Card:FC<Props>=(props)=>{
               </div>
             </div>
             <div className="flex-1 flex flex-col">
-              <p className="text-white text-xl leading-relaxed" >Competition Name</p>
+              <p className="text-white text-xl leading-relaxed" >NFT Name</p>
               <p className="text-white text-sm line-clamp-4 opacity-70">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto dolorum voluptate nostrum ea natus cumque id. Beatae provident rerum similique tenetur nihil voluptates eum quae perspiciatis, sit ducimus hic aliquid! Iusto dolorum voluptate nostrum ea natus cumque id. Beatae provident rerum similique tenetur nihil voluptates eum quae perspiciatis, sit ducimus hic aliquid!</p>
 
               <div className="bg-[#170F44] rounded-md w-full h-[100px] flex space-x-12 justify-center items-center mt-2">

@@ -10,17 +10,19 @@ interface Props{
 const Footer:FC<Props>=()=>{
     return (
         <>
-          <hr className="bg-[#D9D9D9] w-full opacity-50 mb-4" />
-          <p className="text-white text-3xl leading-relaxed flex-none" >Brand Name © 2024 | All Rights Reserved</p>
-          <div className="flex space-x-4 m-4">
-            <div>
-              <img className=""  src={twitter}  />
-            </div>
-            <div>
-              <img className=""  src={discord}  />
-            </div>
-            <div>
-              <img className=""  src={telegram}  />
+          <div className="flex flex-col items-center">
+            <hr className="bg-[#D9D9D9] w-full opacity-50 mb-4" />
+            <p className="text-white text-3xl leading-relaxed flex-none" >Brand Name © 2024 | All Rights Reserved</p>
+            <div className="flex space-x-4 m-4">
+              <div>
+                <img className=""  src={twitter}  />
+              </div>
+              <div>
+                <img className=""  src={discord}  />
+              </div>
+              <div>
+                <img className=""  src={telegram}  />
+              </div>
             </div>
           </div>
         </>

@@ -4,13 +4,14 @@ import divider from "../../assets/common/SHeader/divider.png";
 import bell from "../../assets/common/SHeader/bell.png";
 import dotted from "../../assets/common/SHeader/dotted.png";
 import avatar from "../../assets/common/SHeader/avatar.png";
+import SearchBar from "../common/SearchBar";
 
-const SHeader:FC=props=>{
+const SHeader:FC=()=>{
     return (
         <>
-          <div className="flex justify-between">
-            <div className="bg-gradient-to-r from-[#E73583] text-center via-[#7C65FF] to-[#50B4FF] w-[100px] h-[100px] rounded-full w-[180] h-[30px]" >
-              <div className="text-white" >Login</div>
+          <div className="flex justify-between mt-9 mb-9">
+            <div className="flex items-center">
+              <SearchBar value="Search here..." />
             </div>
             <div className="flex items-center space-x-4">
               <img src={bell} />

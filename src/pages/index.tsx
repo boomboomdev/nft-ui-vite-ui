@@ -19,7 +19,7 @@ interface Props{
 const IndexPage:FC<Props>=()=>{
     return (
         <>
-            <div className="w-full mt-[100px] md:container mx-auto px-4 py-3" >
+            <div className="w-full mt-[100px] md:container mx-auto px-4 py-3 mb-24" >
                 <div className="flex flex-row" >
                     <div className="basis-1/2 " >
                         <p className="text-white text-7xl leading-relaxed" >Welcome to Your</p>
@@ -72,11 +72,7 @@ const IndexPage:FC<Props>=()=>{
                     <Community />
                 </div>
             </div>
-            <div>
-                <div className="flex items-center flex-col mt-24">
-                    <Footer />
-                </div>
-            </div>
+            <Footer />
         </>
     )
 }
