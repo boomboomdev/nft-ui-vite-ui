@@ -22,13 +22,13 @@ const ICard:FC<Props>=()=>{
               </div>
               <div>
                 <p className="text-[#E73583] text-base w-full mt-2">@Kallaban_Joy35</p>
-                <p className="text-white text-sm w-full mt-2">My name is Justin Baker & change my occupation after five years of working in sales. I still like drawing. </p>
+                <p className="text-[#AEA9A9] text-sm w-full mt-2">My name is Justin Baker & change my occupation after five years of working in sales. I still like drawing. </p>
                 <div className="flex items-center space-x-2 mt-2">
                   <div>
                     <img src={location} />
                   </div>
                   <div>
-                    <p className="text-white text-sm w-full">Bran Street New York, USA</p>
+                    <p className="text-[#AEA9A9] text-sm w-full">Bran Street New York, USA</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-2 mt-2">
@@ -36,7 +36,7 @@ const ICard:FC<Props>=()=>{
                     <img src={link} />
                   </div>
                   <div>
-                    <p className="text-white text-sm w-full">bit.ly/yte89k6</p>
+                    <p className="text-[#AEA9A9] text-sm w-full">bit.ly/yte89k6</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-2 mt-2">
@@ -44,7 +44,7 @@ const ICard:FC<Props>=()=>{
                     <img src={date} />
                   </div>
                   <div>
-                    <p className="text-white text-sm w-full">Joined March 2010</p>
+                    <p className="text-[#AEA9A9] text-sm w-full">Joined March 2010</p>
                   </div>
                 </div>
               </div>

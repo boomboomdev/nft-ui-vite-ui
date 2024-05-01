@@ -23,21 +23,21 @@ const TContainer:FC<Props>=()=>{
               <img src={divider} />
             </div>
             <div className="flex space-x-2 items-center">
-              <p className="text-white text-xl leading-relaxed opacity-60" >Approval NFT's</p>
+              <p className="text-[#C5C3D0] text-xl leading-relaxed" >Approval NFT's</p>
               <p className="text-[#E73583] text-xl">16</p>
             </div>
             <div>
               <img src={divider} />
             </div>
             <div className="flex space-x-2 items-center">
-              <p className="text-white text-xl leading-relaxed opacity-60" >Active Competition</p>
+              <p className="text-[#C5C3D0] text-xl leading-relaxed opacity-60" >Active Competition</p>
               <p className="text-[#E73583] text-xl">16</p>
             </div>
             <div>
               <img src={divider} />
             </div>
             <div className="flex space-x-2 items-center">
-              <p className="text-white text-xl leading-relaxed opacity-60" >Rejected NFT's</p>
+              <p className="text-[#C5C3D0] text-xl leading-relaxed opacity-60" >Rejected NFT's</p>
               <p className="text-[#E73583] text-xl">16</p>
             </div>
           </div>
