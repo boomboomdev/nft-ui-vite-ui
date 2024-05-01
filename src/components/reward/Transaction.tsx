@@ -6,7 +6,7 @@ interface Props{
 const Transaction:FC<Props>=()=>{
   return (
     <>
-      <div className="mt-4 mb-8">
+      <div className="mt-8 mb-12">
         <p className="text-lg text-white mb-2">Transaction & Payout Details</p>
 
         <div className="border border-[#848383] rounded-md overflow-hidden">
