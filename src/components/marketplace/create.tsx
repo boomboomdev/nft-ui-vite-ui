@@ -43,7 +43,7 @@ const Create:FC<Props>=()=>{
             </div>
           </div>
         </div>
-        <div className="flex justify-between mb-9">
+        <div className="flex justify-between mb-9 mt-4">
           <div className="flex space-x-4">
             <TransparentButton value="Approval NFT's" />
             <GradientButton value="Active Competition" />
