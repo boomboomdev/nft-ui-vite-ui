@@ -9,9 +9,17 @@ const Card:FC<Props>=(props)=>{
         <>
           <div className="w-full relative border-2 border-[#848383] rounded-md">
             <img className="w-full"  src={props.image}  />
-            <p className="text-white text-xl leading-relaxed m-4" >Competition Name</p>
+            <div className="flex justify-between pl-4 pr-4 pt-4">
+              <div className="flex items-end space-x-2">
+                <p className="text-white text-xl leading-relaxed">Art Name</p>
+                <p className="text-[#979797] text-sm">(Artist)</p>
+              </div>
+              <div>
+                <p className="text-[#E73583] text-xl leading-relaxed">$4.56</p>
+              </div>
+            </div>
             <div className=" p-4 pt-0 pb-0">
-              <p className="text-white text-sm w-full line-clamp-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto dolorum voluptate nostrum ea natus cumque id. Beatae provident rerum similique tenetur nihil voluptates eum quae perspiciatis, sit ducimus hic aliquid!</p>
+              <p className="text-[#C1BDBD] text-sm w-full">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto dolorum voluptate nostrum ea natus cumque id. Beatae provident rerum similique tenetur nihil voluptates eum quae perspiciatis, sit ducimus hic aliquid!</p>
             </div>
 
             <div className="flex justify-between m-4">

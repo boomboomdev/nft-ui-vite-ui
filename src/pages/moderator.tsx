@@ -5,6 +5,7 @@ import SHeader from "../components/layouts/SHeader";
 import Footer from "../components/layouts/footer";
 import TContainer from "../components/moderator/TContainer";
 import Card from "../../src/components/moderator/card";
+import GradientButton from "../components/common/gradient_button";
 // assets
 import card_img_3 from "../assets/home/ongoing/card_img_3.png";
 interface Props{
@@ -37,6 +38,10 @@ const Moderator:FC<Props>=()=>{
               <div className="basis-1/3">
                 <Card image={card_img_3} />
               </div>
+            </div>
+            
+            <div className="flex justify-center mt-12 mb-12">
+              <GradientButton value="See More" />
             </div>
           </div>
           <Footer />
