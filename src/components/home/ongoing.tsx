@@ -5,12 +5,15 @@ import Card from "./ongoing/card";
 import card_img_1 from "../../assets/home/ongoing/card_img_1.png";
 import card_img_2 from "../../assets/home/ongoing/card_img_2.png";
 import card_img_3 from "../../assets/home/ongoing/card_img_3.png";
+import star from "../../assets/home/ongoing/star.png";
+
 interface Props{
 
 }
 const Ongoing:FC<Props>=()=>{
     return (
         <>
+          <img className="absolute left-[6%] top-[-240px] w-[75%]"  src={star}  />
           <p className="text-white text-7xl leading-relaxed mt-28" >Ongoing Competition</p>
           <p className="text-white text-lg">Discover a vibrant community where artists and collectors meet to create, trade, </p>
           <p className="text-white text-lg mb-8"> and celebrate digital art. Whether you're here to mint your first NFT or t</p>

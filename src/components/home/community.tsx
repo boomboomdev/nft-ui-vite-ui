@@ -2,12 +2,15 @@ import { FC } from "react"
 // components
 import Card from "./community/card";
 // assets
+import star from "../../assets/home/community/star.png";
+
 interface Props{
 
 }
 const Community:FC<Props>=()=>{
     return (
         <>
+          <img className="absolute left-[6%] top-[-240px] w-[75%]"  src={star}  />
           <p className="text-white text-7xl leading-relaxed mt-28" >Our Community</p>
           <div className="w-full flex space-x-4 items-center">
             <div className="w-[50px] h-[50px] bg-transparent text-[#E73583] text-3xl border-[#E73583] rounded-full border-2 flex justify-center items-center flex-none">

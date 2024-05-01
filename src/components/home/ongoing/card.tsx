@@ -16,12 +16,18 @@ const Card:FC<Props>=(props)=>{
 
             <div className="flex justify-between m-4">
               <div>
-                <p className="text-white text-xl leading-relaxed" >Ends: 03: 16: 34</p>
+                <p className="text-xl leading-relaxed" style={{"background": "-webkit-linear-gradient(left, #E73583, #7C65FF, #50B4FF)",
+                    WebkitBackgroundClip: "text",
+                    WebkitTextFillColor: "transparent",
+                }}>Ends: 03: 16: 34</p>
               </div>
               <div className="flex space-x-2">
                 <div>
                   <p className="text-white text-sm">Vote here</p>
-                  <p className="text-white text-sm">1, 293</p>
+                  <p className="text-sm leading-relaxed" style={{"background": "-webkit-linear-gradient(left, #E73583, #7C65FF, #50B4FF)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                  }}>1, 293</p>
                 </div>
                 <div className="flex items-center">
                   <img className=""  src={Vector}  />

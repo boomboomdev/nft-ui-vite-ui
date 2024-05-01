@@ -6,12 +6,14 @@ import Card from "./featured/card";
 // assets
 import card_img from "../../assets/home/featured/card_img.png";
 import SearchBar from "../common/SearchBar";
+import star from "../../assets/home/featured/star.png";
 interface Props{
 
 }
 const Featured:FC<Props>=()=>{
     return (
         <>
+          <img className="absolute left-[15%] top-[-240px] w-[75%]"  src={star}  />
           <div className="flex mt-28">
             <p className="text-white text-7xl leading-relaxed" >Featured&nbsp;</p>
             <p className="text-7xl leading-relaxed" style={{"background": "-webkit-linear-gradient(top, #E73583, #7C65FF, #50B4FF)",

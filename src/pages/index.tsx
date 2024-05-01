@@ -104,13 +104,13 @@ const IndexPage:FC<Props>=()=>{
                 <div className="flex items-center flex-col relative">
                     <About />
                 </div>
-                <div className="flex items-center flex-col">
+                <div className="flex items-center flex-col relative">
                     <Featured />
                 </div>
-                <div className="flex items-center flex-col">
+                <div className="flex items-center flex-col relative">
                     <Ongoing />
                 </div>
-                <div className="flex items-center flex-col">
+                <div className="flex items-center flex-col relative">
                     <Community />
                 </div>
             </div>
