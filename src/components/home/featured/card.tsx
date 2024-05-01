@@ -1,7 +1,7 @@
 import { FC } from "react"
 // assets
 import more_vertical from "../../../assets/home/featured/more-vertical.svg";
-import heart from "../../../assets/home/featured/heart.svg";
+import heart from "../../../assets/home/featured/heart.png";
 import avatar from "../../../assets/home/featured/avatar.png";
 interface Props {
   image: string;

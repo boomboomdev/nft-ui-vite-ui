@@ -5,15 +5,22 @@ import TransparentButton from "../common/transparent_button";
 import Card from "./featured/card";
 // assets
 import card_img from "../../assets/home/featured/card_img.png";
+import SearchBar from "../common/SearchBar";
 interface Props{
 
 }
 const Featured:FC<Props>=()=>{
     return (
         <>
-          <p className="text-white text-7xl leading-relaxed" >Featured NFT</p>
+          <div className="flex mt-28">
+            <p className="text-white text-7xl leading-relaxed" >Featured&nbsp;</p>
+            <p className="text-7xl leading-relaxed" style={{"background": "-webkit-linear-gradient(top, #E73583, #7C65FF, #50B4FF)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+            }}>NFT</p>
+          </div>
           <p className="text-white text-lg">Discover a vibrant community where artists and collectors meet to create, trade, </p>
-          <p className="text-white text-lg mb-8"> and celebrate digital art. Whether you're here to mint your first NFT or t</p>
+          <p className="text-white text-lg mb-16"> and celebrate digital art. Whether you're here to mint your first NFT or t</p>
 
           <div className="flex justify-between w-full">
             <div className="flex space-x-4">
@@ -22,7 +29,7 @@ const Featured:FC<Props>=()=>{
               <TransparentButton value="Top Rated" />
             </div>
             <div className="flex">
-              <TransparentButton value="Search nft" />
+              <SearchBar value="Search nft" />
             </div>
           </div>
 

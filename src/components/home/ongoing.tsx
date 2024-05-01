@@ -11,7 +11,7 @@ interface Props{
 const Ongoing:FC<Props>=()=>{
     return (
         <>
-          <p className="text-white text-7xl leading-relaxed" >Ongoing Competition</p>
+          <p className="text-white text-7xl leading-relaxed mt-28" >Ongoing Competition</p>
           <p className="text-white text-lg">Discover a vibrant community where artists and collectors meet to create, trade, </p>
           <p className="text-white text-lg mb-8"> and celebrate digital art. Whether you're here to mint your first NFT or t</p>
 
@@ -27,7 +27,7 @@ const Ongoing:FC<Props>=()=>{
             </div>
           </div>
 
-          <div className="flex space-x-4">
+          <div className="flex space-x-4 mt-8">
             <div className="w-[50px] h-[50px] bg-transparent text-[#E73583] text-3xl border-[#E73583] rounded-full border-2 flex justify-center items-center">
               <p>&lt;</p>
             </div>

@@ -14,7 +14,7 @@ const Card:FC<Props>=()=>{
             </div>
             <p className="text-white text-xl leading-relaxed mt-4 mb-12" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure </p>
             <div className="absolute z-10 bottom-4 right-4">
-              <p className="text-white text-xl leading-relaxed mt-4" >16th April 2024</p>
+              <p className="text-white text-xl leading-relaxed mt-4 italic" >16th April 2024</p>
             </div>
           </div>
         </>

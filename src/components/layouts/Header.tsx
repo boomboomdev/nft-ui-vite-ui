@@ -1,9 +1,10 @@
 import { FC } from "react"
+import GradientButton from "../common/gradient_button";
 
 const Header:FC=()=>{
     return (
-        <div className="flex w-full items-center" >
-            <div className="flex-none  " >
+        <div className="flex w-full items-center mt-4" >
+            <div className="flex-none flex items-center" >
                 <h1 className="text-3xl text-white " >LOGO</h1>
             </div>
             <div className="grow " >
@@ -18,9 +19,7 @@ const Header:FC=()=>{
                 </div>
             </div>
             <div className="flex-none" >
-                <div className="bg-gradient-to-r from-[#E73583] text-center via-[#7C65FF] to-[#50B4FF] w-[100px] h-[100px] rounded-full w-[180] h-[30px]" >
-                    <div className="text-white" >Login</div>
-                </div>
+                <GradientButton value="Login" />
             </div>
         </div>
     )

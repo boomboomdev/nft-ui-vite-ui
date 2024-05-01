@@ -6,13 +6,15 @@ import card_img_1 from "../../assets/home/about/card_img_1.png";
 import card_img_2 from "../../assets/home/about/card_img_2.png";
 import card_img_3 from "../../assets/home/about/card_img_3.png";
 import card_img_4 from "../../assets/home/about/card_img_4.png";
+import star from "../../assets/home/about/star.png";
 interface Props{
 
 }
 const About:FC<Props>=()=>{
     return (
         <>
-          <p className="text-white text-7xl leading-relaxed" >About Us</p>
+          <img className="absolute left-[15%] top-[-195px] w-[75%]"  src={star}  />
+          <p className="text-white text-7xl leading-relaxed pt-28" >About Us</p>
           <p className="text-white text-lg">Discover a vibrant community where artists and collectors meet to create, trade, </p>
           <p className="text-white text-lg mb-8"> and celebrate digital art. Whether you're here to mint your first NFT or t</p>
           <div className="w-full flex space-x-4 mb-4">
@@ -25,10 +27,10 @@ const About:FC<Props>=()=>{
           </div>
           <div className="w-full flex space-x-4">
             <div className="basis-1/2">
-              <Card image={card_img_3} title="Streamlined Accessibility" description="We strive to offer a platform where your creative journey is unhindered by complexity. With user-friendly interfaces and step-by-step guidance, accessing the world of NFTs is as simple as a few clicks. Whether you're a digital art novice or a seasoned collector"/>
+              <Card active image={card_img_3} title="Streamlined Accessibility" description="We strive to offer a platform where your creative journey is unhindered by complexity. With user-friendly interfaces and step-by-step guidance, accessing the world of NFTs is as simple as a few clicks. Whether you're a digital art novice or a seasoned collector"/>
             </div>
             <div className="basis-1/2">
-              <Card image={card_img_4} title="Curated Excellence" description="Quality is paramount in the world of NFTs. Our platform highlights top-rated digital assets, showcasing exceptional artistry and innovation. Each NFT featured undergoes a rigorous selection process, ensuring that collectors" />
+              <Card active image={card_img_4} title="Curated Excellence" description="Quality is paramount in the world of NFTs. Our platform highlights top-rated digital assets, showcasing exceptional artistry and innovation. Each NFT featured undergoes a rigorous selection process, ensuring that collectors" />
             </div>
           </div>
         </>
