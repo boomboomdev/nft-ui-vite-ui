@@ -43,7 +43,7 @@ const Pool:FC<Props>=()=>{
                 </div>
               </div>
               <div>
-                <p className="text-white text-sm w-full opacity-50">Referral Earnings</p>
+                <p className="text-[#8E8AAA] text-sm w-full">Referral Earnings</p>
               </div>
             </div>
             <div className="flex items-center">
@@ -59,7 +59,7 @@ const Pool:FC<Props>=()=>{
                 </div>
               </div>
               <div>
-                <p className="text-white text-sm w-full opacity-50">User Referred</p>
+                <p className="text-[#8E8AAA] text-sm w-full">User Referred</p>
               </div>
             </div>
             <div className="flex items-center">
@@ -75,7 +75,7 @@ const Pool:FC<Props>=()=>{
                 </div>
               </div>
               <div>
-                <p className="text-white text-sm w-full opacity-50">Rewards Pending</p>
+                <p className="text-[#8E8AAA] text-sm w-full">Rewards Pending</p>
               </div>
             </div>
             <div className="flex items-center">

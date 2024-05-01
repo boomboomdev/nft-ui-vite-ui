@@ -31,7 +31,7 @@ const LItem:FC<Props>=(props)=>{
               </div>
             </div>
             <div className="flex items-end">
-              <p className="text-white text-xs">{props.date}</p>
+              <p className="text-[#8B87A2] text-xs">{props.date}</p>
             </div>
           </div>
         </>
