@@ -12,7 +12,7 @@ const NFT:FC<Props>=()=>{
       <div className="flex">
         <Sidebar active="nft" />
         <div className="flex-1">
-          <div className="md:container mx-auto px-4 py-3">
+          <div className="md:container mx-auto px-4 py-3 mb-20">
             <SHeader />
 
             <FContainer />
