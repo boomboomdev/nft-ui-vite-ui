@@ -33,11 +33,11 @@ const Card:FC<Props>=(props)=>{
             </div>
             <div className="flex-1 flex flex-col">
               <p className="text-white text-xl leading-relaxed" >NFT Name</p>
-              <p className="text-white text-sm line-clamp-4 opacity-70">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto dolorum voluptate nostrum ea natus cumque id. Beatae provident rerum similique tenetur nihil voluptates eum quae perspiciatis, sit ducimus hic aliquid! Iusto dolorum voluptate nostrum ea natus cumque id. Beatae provident rerum similique tenetur nihil voluptates eum quae perspiciatis, sit ducimus hic aliquid!</p>
+              <p className="text-[#C1BDBD] text-sm line-clamp-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto dolorum voluptate nostrum ea natus cumque id. Beatae provident rerum similique tenetur nihil voluptates eum quae perspiciatis, sit ducimus hic aliquid! Iusto dolorum voluptate nostrum ea natus cumque id. Beatae provident rerum similique tenetur nihil voluptates eum quae perspiciatis, sit ducimus hic aliquid!</p>
 
               <div className="bg-[#170F44] rounded-md w-full h-[100px] flex space-x-12 justify-center items-center mt-2">
                 <div className="flex flex-col space-y-1">
-                  <p className="text-white text-sm opacity-50">Current Price</p>
+                  <p className="text-[#8B87A2] text-sm opacity-50">Current Price</p>
                   <p className="text-[#E73583] text-base">1.78 ETH</p>
                   <p className="text-white text-sm">$3,890.6</p>
                 </div>
@@ -45,7 +45,7 @@ const Card:FC<Props>=(props)=>{
                   <img src={divider} />
                 </div>
                 <div className="flex flex-col space-y-1">
-                  <p className="text-white text-sm opacity-50">Competition Ending in</p>
+                  <p className="text-[#8B87A2] text-sm opacity-50">Competition Ending in</p>
                   <div className="flex w-full">
                     <div className="basis-1/3 flex">
                       <p className="text-[#E73583] text-base flex-none">12</p>

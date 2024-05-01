@@ -15,7 +15,7 @@ const Item:FC<Props>=(props)=>{
               <img src={props.active ? props.active_image : props.image} />
             </div>
             <div className="flex-1 flex items-center">
-              <p className={`text-lg ${props.active ? "text-[#E73583]" : "text-white"}`}>{props.title}</p>
+              <p className={`text-lg ${props.active ? "text-[#E73583]" : "text-[#85878D]"}`}>{props.title}</p>
             </div>
             <div className="flex-none">
               <img src={props.active ? arrow_right_active : arrow_right} />
