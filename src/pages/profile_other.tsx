@@ -19,7 +19,7 @@ const ProfileOther:FC<Props>=()=>{
           <div className="md:container mx-auto px-4 py-3">
             <SHeader />
             <Hero />
-            <div className="flex space-x-4">
+            <div className="flex space-x-4 pl-4">
               <ICard />
               <div className="flex-1 flex flex-col">
                 <Info active />

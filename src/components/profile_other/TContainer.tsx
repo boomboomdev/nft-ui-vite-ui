@@ -15,7 +15,7 @@ const TContainer:FC<Props>=()=>{
               <p className="text-white text-xl leading-relaxed" >Created ART</p>
               <p className="text-[#E73583] text-xl">16</p>
 
-              <div className="absolute bottom-0">
+              <div className="absolute top-16">
                 <img src={bottom_divider} />
               </div>
             </div>
