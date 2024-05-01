@@ -1,0 +1,35 @@
+import { FC } from "react"
+// assets
+import Vector from "../../../assets/home/ongoing/Vector.png";
+interface Props {
+  image: string;
+}
+const Card:FC<Props>=(props)=>{
+    return (
+        <>
+          <div className="w-full relative border-2 border-[#848383] rounded-md">
+            <img className="w-full"  src={props.image}  />
+            <p className="text-white text-xl leading-relaxed m-4" >Competition Name</p>
+            <div className=" p-4 pt-0 pb-0">
+              <p className="text-white text-sm w-full line-clamp-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto dolorum voluptate nostrum ea natus cumque id. Beatae provident rerum similique tenetur nihil voluptates eum quae perspiciatis, sit ducimus hic aliquid!</p>
+            </div>
+
+            <div className="flex justify-between m-4">
+              <div>
+                <p className="text-white text-xl leading-relaxed" >Ends: 03: 16: 34</p>
+              </div>
+              <div className="flex space-x-2">
+                <div>
+                  <p className="text-white text-sm">Vote here</p>
+                  <p className="text-white text-sm">1, 293</p>
+                </div>
+                <div className="flex items-center">
+                  <img className=""  src={Vector}  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </>
+    )
+}
+export default Card

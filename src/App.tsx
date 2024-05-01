@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-        <div className="md:container mx-auto px-4 py-3" >
+        <div>
           <BrowserRouter>
             <Suspense fallback={<></>} >
             <AppRoutes/>

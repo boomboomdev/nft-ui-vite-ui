@@ -20,11 +20,11 @@ const AppRoutes:FC<any>=(props)=>{
             ]
         },
         {
-            path:"/",
+            path:"/marketplace",
             element:<FrameLayout {...props} />,
             children:[
                 {
-                    path:"marketplace",
+                    path:"",
                     element:<MarketplacePage {...props} />
                 }
             ]

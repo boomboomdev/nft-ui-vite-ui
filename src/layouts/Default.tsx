@@ -5,11 +5,13 @@ import star_1 from '../assets/star-1.png'
 const DefaultLayout:FC=props=>{
     return (
         <>
+        <div className="md:container mx-auto px-4 py-3" >
             <Header/>
             <img className="absolute left-[2%] top-[160px] w-[4%]"  src={star_1}  />
             <img className="absolute left-[55%] top-[169px] w-[6%]"  src={star_1}  />
             <img className="absolute left-[55%] top-[569px] w-[4%]"  src={star_1}  />
-            <Outlet {...props} />
+        </div>
+        <Outlet {...props} />
         </>
     )
 }
