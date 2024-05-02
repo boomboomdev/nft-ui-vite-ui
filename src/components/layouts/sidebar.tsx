@@ -1,4 +1,5 @@
 import { FC } from "react"
+import { Link } from "react-router-dom";
 // components
 import Item from "./sidebar/item"
 // assets
@@ -24,14 +25,14 @@ const Sidebar:FC<Props>=(props)=>{
       <div className="w-[250px] bg-[#170F44] min-h-screen">
         <h1 className="text-3xl text-white mt-12 ml-12 mb-16" >LOGO</h1>
         <div className="flex flex-col">
-          <Item image={home} title="Home Page" />
-          <Item image={dashboard} active_image={dashboard_active} title="NFT Marketplace" active={props.active === "dashboard"} />
-          <Item image={profile} active_image={profile_active} title="My Profile" active={props.active === "profile"} />
-          <Item image={nft} active_image={nft_active} title="NFT Submission" active={props.active === "nft"} />
-          <Item image={moderator} active_image={moderator_active} title="Moderator Panel" active={props.active === "moderator"} />
-          <Item image={reward} active_image={reward_active} title="Rewards & Payout" active={props.active === "reward"} />
-          <Item image={voting} title="Voting & Competition" />
-          <Item image={logout} title="Log Out" />
+          <Link to="/" ><Item image={home} title="Home Page" /></Link>
+          <Link to="/marketplace" ><Item image={dashboard} active_image={dashboard_active} title="NFT Marketplace" active={props.active === "dashboard"} /></Link>
+          <Link to="/profile_mine" ><Item image={profile} active_image={profile_active} title="My Profile" active={props.active === "profile"} /></Link>
+          <Link to="/nft" ><Item image={nft} active_image={nft_active} title="NFT Submission" active={props.active === "nft"} /></Link>
+          <Link to="/moderator" ><Item image={moderator} active_image={moderator_active} title="Moderator Panel" active={props.active === "moderator"} /></Link>
+          <Link to="/reward" ><Item image={reward} active_image={reward_active} title="Rewards & Payout" active={props.active === "reward"} /></Link>
+          <Link to="/profile_other" ><Item image={voting} title="Voting" /></Link>
+          <Link to="/nft" ><Item image={logout} title="Log Out" /></Link>
         </div>
       </div>
     </>
