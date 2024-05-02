@@ -8,7 +8,7 @@ function App() {
         <div>
           <BrowserRouter>
             <Suspense fallback={<></>} >
-            <AppRoutes/>
+              <AppRoutes/>
             </Suspense>
           </BrowserRouter>
         </div>

@@ -1,5 +1,6 @@
 import { FC } from "react"
 import GradientButton from "../common/gradient_button";
+import { Link } from "react-router-dom";
 
 const Header:FC=()=>{
     return (
@@ -10,9 +11,9 @@ const Header:FC=()=>{
             <div className="grow " >
                 <div className="flex w-full items-center" >
                     <div className="grow" ></div>
-                    <div className="text-white mx-4" >Home</div>
+                    <Link to="/" ><div className="text-white mx-4" >Home</div></Link>
                     <div className="text-white mx-4" >About</div>
-                    <div className="text-white mx-4" >Featured NFT's</div>
+                    <Link to="/nft" ><div className="text-white mx-4" >Featured NFT's</div></Link>
                     <div className="text-white mx-4" >Competition</div>
                     <div className="text-white mx-4" >Testimonials</div>
                     <div className="grow" ></div>
